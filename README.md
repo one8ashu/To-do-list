@@ -43,5 +43,3 @@ Contributions are welcome! Please open a pull request or create an issue to sugg
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to adjust this README to include any specific installation instructions or additional details about your project.
