@@ -9,33 +9,29 @@
   <body class="bg-blue-400">
     <div class="flex items-center justify-center h-screen">
       <div
-        class="flex flex-col items-center bg-pink-400 w-1/2 h-1/2 rounded-3xl border-4 border-blue-950"
+        class="flex flex-col items-center bg-pink-400 w-2/5 h-4/5 rounded-3xl border-4 border-blue-950"
       >
         <h1
-          class="font-mono text-6xl font-bold justify-center align-middle text-orange-800"
+          class="font-mono text-6xl font-extrabold justify-center align-middle text-orange-900 pt-8"
         >
           To-Do list
         </h1>
 
-        <div class="flex flex-col items-center p-28">
-          <div class="mb-4">
-            <input
-              class="bg-transparent text-black border-2 border-blue-950 p-2"
-              type="text"
-              id="taskInput"
-              placeholder="Add a task"
-            />
-          </div>
+        <div class="flex flex-row items-center p-28">
+          <input
+            class="bg-transparent text-black border-2 border-blue-950 p-2 rounded-3xl"
+            type="text"
+            id="taskInput"
+            placeholder="Add a task"
+          />
           <button
-            class="bg-blue-950 text-white px-4 py-2 rounded"
+            class="bg-blue-950 text-white px-6 py-2 rounded-3xl"
             onclick="addTask()"
           >
             Add
           </button>
         </div>
-        <div class="mt-4">
-          <ul id="taskList"></ul>
-        </div>
+        <ul class="mt-4" id="taskList"></ul>
       </div>
     </div>
 
