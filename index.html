@@ -7,12 +7,18 @@
     <title>To-do list</title>
   </head>
   <body class="bg-yellow-300">
-    <div class="flex items-center justify-center bg-blue-500 w-2/5 h-screen">
-      <h1>To-Do list</h1>
+    <div
+      class="flex items-center justify-center bg-blue-500 w-2/5 h-1/2 rounded-3xl border-4 border-blue-950"
+    >
+      <h1 class="font-mono text-6xl font-bold justify-center align-middle">To-Do list</h1>
 
-      <input type="text" id="taskInput" placeholder="Add a task..." />
-      <button onclick="addTask()">Add</button>
-      <ul id="taskList"></ul>
+      <div class="w-full">
+        <input class="bg-transparent" type="text" id="taskInput" placeholder="Add a task" />
+        <button class="" onclick="addTask()">Add</button>
+      </div>
+      <div class="">
+        <ul id="taskList"></ul>
+      </div>
     </div>
 
     <script src="script.js"></script>
