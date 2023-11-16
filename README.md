@@ -38,8 +38,8 @@ This project demonstrates a basic implementation of a to-do list where users can
 
 Contributions are welcome! Please open a pull request or create an issue to suggest improvements or additional features.
 
-## License
+<!-- ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE). -->
 
 ---
